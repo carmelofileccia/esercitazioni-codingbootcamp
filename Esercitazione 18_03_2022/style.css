@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    
+    color: #08554f;
+    /* background-image: url(./cartoon-doodles-cinema-seamless-pattern-2351107.jpg); */
+}
+h3 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #08554f;
+}
+input {
+    background: #cae9e6;
+    width: 30%;
+    min-height: 40px;
+    display: block;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.divSearch {
+    width: 100%;
+    max-width: 990px;
+    margin: 10px auto;
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+.divAdd {
+    width: 100%;
+    max-width: 990px;
+    margin: 10px auto;
+    padding: 10px 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+#inputName {
+    width: 50%;
+    margin: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#inputSearch {
+    width: 50%;
+    margin: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#inputWorld {
+    width: 50%;
+    margin: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+.pulsante {
+    background: #08554f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease-out;
+    border: 2px #08554f solid;
+    cursor: pointer;
+    width: 50%;
+}
+.pulsante:hover {
+    background: #fff;
+    color: #08554f;
+}
+
+li {
+    background-color:#cae9e6;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    display: inline-block;
+    box-shadow: 5px 5px 29px 1px #4F4F4F;
+
+}
+#totalDiv {
+    width: 100%;
+    display: flex;
+}
